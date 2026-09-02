@@ -1,0 +1,17 @@
+# Complete authentication orchestration
+
+src/lib/authStorage.ts
+
+# Payment integration
+src/app/admin/layout.tsx
+src/app/admin/course
+src/app/student/course
+src/app/student/exams
+src/app/student/course
+src/components/home
+src/components/dashboard
+src/redux/providers
+
+# Production configuration
+.env*
+!.env.example

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* dark mode support */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+   html {
+    scroll-behavior: smooth;
+  }
+}
